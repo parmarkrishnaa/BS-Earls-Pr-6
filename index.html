@@ -14,63 +14,409 @@
 
 <body>
 
-    <section>
-        <div class="menu position-relative py-5 overflow-hidden" style="background-color: #021a20;">
-            <div class="container-fluid px-3">
-                <div class="row text-center mb-4">
-                    <div class="col-md-12">
-                        <div class="title">
-                            <h5 style="color: #c9ab81;">Special selection</h5>
-                            <div class="content d-flex justify-content-center">
-                                <img src="./images/menu-icon-01.png" class="img-fluid" alt="">
-                                <h4 class="pt-4 px-4 fs-2 text-white">From <span style="color: #c9ab81;">Our Menu</span>
-                                </h4>
-                                <img src="./images/menu-icon-02.png" class="img-fluid" alt="">
-                            </div>
-                            <img src="./images/title-icon.png" alt="">
-                            <div class="shape position-absolute top-0 end-0">
-                                <img src="./images/shape-05.png" class="img-fluid" alt="">
-                            </div>
+    <div class="paralax"></div>
+
+    <!-- header section start  -->
+
+    <div class="position-fixed top-0 w-100 z-999">
+        <header class="position-relative w-100 shadow shadow-lg" style="background-color: #0F1D22;">
+            <div class="container">
+                <div class="row justify-content-between">
+                    <div class="col-4 col-md-2 col-lg-2">
+                        <div class="d-flex">
+                            <img src="./images/logo.png" class="img-fluid pb-2" alt="">
+                        </div>
+                    </div>
+                    <div class="col-1  d-block d-lg-none">
+                        <button class="btn fs-3" style="background-color: transparent !important;">
+                            <a href="#"><i class="bi bi-list" style="color: #C9AB81;"></i></a>
+                        </button>
+                    </div>
+                    <div class="d-none d-lg-block col-lg-9">
+                        <div class="menu float-end">
+                            <ul class="mb-0 py-4 ps-3 list-unstyled d-flex">
+                                <li class="ms-4">
+                                    <a href="#" class="text-white fs-5">Home</a>
+                                    <div class="dropd">
+                                        <ol class="list-unstyled">
+                                            <li>
+                                                <a href="#">Home One</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Home Two</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Home Three</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Home Four</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Home Five</a>
+                                            </li>
+                                        </ol>
+                                    </div>
+                                </li>
+                                <li class="ms-4">
+                                    <a href="#" class="text-white fs-5">Page</a>
+                                    <div class="dropd">
+                                        <ol class="list-unstyled">
+                                            <li>
+                                                <a href="#">About Us</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Our Chef</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Oue Menu</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Booking Page</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Comming Soon</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">My Account</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Reset Password</a>
+                                            </li>
+                                        </ol>
+                                    </div>
+                                </li>
+                                <li class="ms-4">
+                                    <a href="#" class="text-white fs-5">Blog</a>
+                                    <div class="dropd">
+                                        <ol class="list-unstyled">
+                                            <li>
+                                                <a href="#">Blog</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Blog Details</a>
+                                            </li>
+                                        </ol>
+                                    </div>
+                                </li>
+                                <li class="ms-4">
+                                    <a href="#" class="text-white fs-5">Portfolio</a>
+                                    <div class="dropd">
+                                        <ol class="list-unstyled">
+                                            <li>
+                                                <a href="#">Poartfolio</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Poartfolio Details</a>
+                                            </li>
+                                        </ol>
+                                    </div>
+                                </li>
+                                <li class="ms-4">
+                                    <a href="#" class="text-white fs-5">Shop</a>
+                                    <div class="dropd">
+                                        <ol class="list-unstyled">
+                                            <li>
+                                                <a href="#">Shop 01</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Shop 02</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Shop Details</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Cart Page</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Checkout Page</a>
+                                            </li>
+                                        </ol>
+                                    </div>
+                                </li>
+                                <li class="ms-4">
+                                    <a href="#" class="text-white fs-5">Contact</a>
+                                </li>
+                            </ul>
                         </div>
                     </div>
                 </div>
-                <div class="position-relative py-5">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <div class="img">
-                                <img src="./images/menu-01.png" class="img-fluid w-100" alt="">
+            </div>
+        </header>
+    </div>
+
+    <!-- header section end  -->
+
+    <main>
+
+        <div class="position-fixed bottom-0 end-0 mb-3 translate-middle z-999 btn-up">
+            <a href="#home" class="rounded-circle" style="background-color: #C9AB81; padding: 15px 15px;"><i class="bi bi-chevron-up text-white fs-4"></i></a>
+        </div>
+
+        <!-- banner section start  -->
+
+        <section class="banner" id="home">
+            <div class="container-fluid h-100">
+                <div class="row h-100">
+                    <div class="col-12 col-md-10 col-lg-7 d-flex align-items-center justify-content-center h-100">
+                        <div>
+                            <span class="fs-5 mb-4" style="color: #C9AB81;">Welcome To Earls</span>
+                            <h1 class="text-white display-2 mb-4">THE FINEST <span style="color: #C9AB81;">DRINKS</span></h1>
+                            <p class="text-secondary mb-5">
+                                Sed gravida nisl a porta tincidunt. Integer aliquam nisi sit amet magna suscipit, 
+                                <br>
+                                fermentum mattis erat rutrum. Sed suscipit libero lectus, at ullamcorper erat feugiat eu. 
+                                <br>
+                                Nam posuere ultrices nibh ut sagittis. 
+                            </p>
+                            <button class="btn-brown position-relative">
+                                <a href="#" class="text-white fw-bold">View More</a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> 
+
+        <!-- banner section end  -->
+
+        <!-- about-us section start   -->
+
+        <section style="background-color: #0B1315;">
+            <div class="container-fluid" style="height: 914px;">
+                <div class="row pt-5 h-100 flex-wrap">
+                    <div class="col-12 col-lg-6 h-100">
+                        <div class="d-flex align-items-center h-100">
+                            <div>
+                                <span class="fs-5" style="color: #C9AB81;">About Us</span>
+                                <h2 class="text-white display-6 fw-bold mb-4 mt-2">
+                                    Heaven and Earth are
+                                    <br class="d-none d-lg-block">
+                                    between <span style="color: #C9AB81;">each other.</span>
+                                </h2>
+                                <img src="./images/title-icon.png" class="mb-3 mt-2" alt="">
+                                <p class="text-secondary mb-5 fs-6 lineh flex-wrap">
+                                    Sed gravida nisl a porta tincidunt. Integer aliquam nisi sit amet magna
+                                    <br class="d-none d-lg-block"> 
+                                    suscipit, fermentum mattis erat rutrum. Sed suscipit libero lectus, at 
+                                    <br class="d-none d-lg-block">
+                                    ullamcorper erat feugiat eu. Nam posuere ultrices nibh ut sagittis. Etiam 
+                                    <br class="d-none d-lg-block">
+                                    arcu turpis, elementum ac nulla vel, tristique cursus libero. Fusce feugiat, 
+                                    <br class="d-none d-lg-block">
+                                    justo at mattis tincidunt, velit ante congue ante, et lacinia metus ipsum a 
+                                    <br class="d-none d-lg-block">
+                                    risus.
+                                    <br class="d-none d-lg-block">
+                                    Vivamus hendrerit porta libero nec imperdiet. Praesent interdum nisl nec 
+                                    <br class="d-none d-lg-block">
+                                    facilisis dapibus
+                                </p>
+                                <button class="btn-brown position-relative">
+                                    <a href="#" class="text-white fw-bold">View More</a>
+                                </button>
                             </div>
-                            <div class="content position-relative mt-3">
-                                <h3 class="text-white fst-italic">Starter.</h3>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-6 h-100 position-relative overflow-hidden">
+                        <div class="d-flex align-items-center justify-content-center justify-content-lg-end h-100">
+                            <div class="position-relative z-50">
+                                <img src="./images/about-01.png" alt="">
+                                <div class="position-absolute start-0 bottom-0 translate-middle-x z-50 d-none d-lg-block">
+                                    <img src="./images/about-02.png" class="rotate" alt="">
+                                </div>
                             </div>
-                            <div class="con position-relative">
-                                <div class="border-bottom mt-4" style="border-color: #c9ab81;">
-                                    <div class="box d-flex justify-content-between text-white">
-                                        <h5>Prawn Bisque</h5>
-                                        <p class="fw-medium">$59</p>
+                        </div>
+                        <div class="position-absolute bottom-0 start-0 z-1 d-none d-lg-block">
+                            <img src="./images/shape-01.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> 
+        
+        <!-- about-us section end   -->
+        
+        <!-- product section start -->
+
+        <section class="px-2" style="background-color: #0B1315;">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-6 d-none d-lg-block" style="background-color: #0F1D22;">
+                        <div class="d-flex flex-wrap align-items-center" style="height: 800px;">
+                            <div class="col-6 pe-4">
+                                <div class="img-block my-3">
+                                    <div class=" d-flex justify-content-center align-items-center h-100">
+                                        <img src="./images/k-food-01.png" class="img-fluid" alt="">
                                     </div>
-                                    <p class="fw-medium" style="color: #c9ab81;">Smooth bisque topped with river prawn
-                                    </p>
+                                </div>
+                                <h5 class="text-white fw-bold mt-2 mb-3">Fresh Products</h5>
+                                <p class="text-secondary mb-3">Sed gravida nisl a porta tincidunt.
+                                    Integer aliquam nisi sit amet magna
+                                    suscipit, fermentum mattis erat
+                                    rutrum. Sed suscipit libero lectus.
+                                </p>
+                                <a href="#" class="hobrown fs-5 text-white mb-3">More View</a>
+                            </div>
+                            <div class="col-6 pe-4">
+                                <div class="img-block my-3">
+                                    <div class=" d-flex justify-content-center align-items-center h-100">
+                                        <img src="./images/k-food-02.png" class="img-fluid" alt="">
+                                    </div>
+                                </div>
+                                <h5 class="text-white fw-bold mt-2 mb-3">Skilled Chef</h5>
+                                <p class="text-secondary mb-3">Sed gravida nisl a porta tincidunt.
+                                    Integer aliquam nisi sit amet magna
+                                    suscipit, fermentum mattis erat
+                                    rutrum. Sed suscipit libero lectus.
+                                </p>
+                                <a href="#" class="hobrown fs-5 text-white mb-3">More View</a>
+                            </div>
+                            <div class="col-6 pe-4">
+                                <div class="img-block my-3">
+                                    <div class=" d-flex justify-content-center align-items-center h-100">
+                                        <img src="./images/k-food-03.png" class="img-fluid" alt="">
+                                    </div>
+                                </div>
+                                <h5 class="text-white fw-bold mt-2 mb-3">Bamboo Bar's Best Bar</h5>
+                                <p class="text-secondary mb-3">Sed gravida nisl a porta tincidunt.
+                                    Integer aliquam nisi sit amet magna
+                                    suscipit, fermentum mattis erat
+                                    rutrum. Sed suscipit libero lectus.
+                                </p>
+                                <a href="#" class="hobrown fs-5 text-white mb-3">More View</a>
+                            </div>
+                            <div class="col-6 pe-4">
+                                <div class="img-block my-3">
+                                    <div class=" d-flex justify-content-center align-items-center h-100">
+                                        <img src="./images/k-food-04.png" class="img-fluid" alt="">
+                                    </div>
+                                </div>
+                                <h5 class="text-white fw-bold mt-2 mb-3">Vegan Cuisine</h5>
+                                <p class="text-secondary mb-3">Sed gravida nisl a porta tincidunt.
+                                    Integer aliquam nisi sit amet magna
+                                    suscipit, fermentum mattis erat
+                                    rutrum. Sed suscipit libero lectus.
+                                </p>
+                                <a href="#" class="hobrown fs-5 text-white mb-3">More View</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-6 bg-img" style="height: 800px;">
+                        <div class="position-absolute bottom-25 start-0 translate-middle-x d-none d-lg-block">
+                            <img src="./images/fish-01.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- product section end -->
+
+        <!-- menu section start -->
+
+        <section>
+            <div class="menu position-relative py-5 overflow-hidden" style="background-color: #021a20;">
+                <div class="container-fluid px-3">
+                    <div class="row text-center mb-4">
+                        <div class="col-md-12">
+                            <div class="title">
+                                <h5 style="color: #c9ab81;">Special selection</h5>
+                                <div class="content d-flex justify-content-center">
+                                    <img src="./images/menu-icon-01.png" class="img-fluid" alt="">
+                                    <h4 class="pt-4 px-4 fs-2 text-white">From <span style="color: #c9ab81;">Our Menu</span>
+                                    </h4>
+                                    <img src="./images/menu-icon-02.png" class="img-fluid" alt="">
+                                </div>
+                                <img src="./images/title-icon.png" alt="">
+                                <div class="shape position-absolute top-0 end-0">
+                                    <img src="./images/shape-05.png" class="img-fluid" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="position-relative py-5">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="img">
+                                    <img src="./images/menu-01.png" class="img-fluid w-100" alt="">
+                                </div>
+                                <div class="content position-relative mt-3">
+                                    <h3 class="text-white fst-italic">Starter.</h3>
+                                </div>
+                                <div class="con position-relative">
+                                    <div class="border-bottom mt-4" style="border-color: #c9ab81;">
+                                        <div class="box d-flex justify-content-between text-white">
+                                            <h5>Prawn Bisque</h5>
+                                            <p class="fw-medium">$59</p>
+                                        </div>
+                                        <p class="fw-medium" style="color: #c9ab81;">Smooth bisque topped with river prawn
+                                        </p>
+                                    </div>
+                                    <div class="border-bottom mt-4" style="border-color: #c9ab81;">
+                                        <div class="box d-flex justify-content-between text-white">
+                                            <h5>Beef Skewers</h5>
+                                            <p class="fw-medium">$29</p>
+                                        </div>
+                                        <p class="fw-medium" style="color: #c9ab81;">Classic greek salad, barrel aged feta
+                                            cheese,</p>
+                                    </div>
+                                    <div class="border-bottom mt-5" style="border-color: #c9ab81;">
+                                        <div class="box d-flex justify-content-between text-white">
+                                            <h5>Tomato Soup</h5>
+                                            <p class="fw-medium">$18</p>
+                                        </div>
+                                        <p class="fw-medium" style="color: #c9ab81;">Smooth bisque topped with river prawn
+                                        </p>
+                                    </div>
+                                    <div class="border-bottom mt-4" style="border-color: #c9ab81;">
+                                        <div class="box d-flex justify-content-between text-white">
+                                            <h5>Petit Carp</h5>
+                                            <p class="fw-medium">$29</p>
+                                        </div>
+                                        <p class="fw-medium" style="color: #c9ab81;">Small portion of fried carp with mashed
+                                            potatoes</p>
+                                    </div>
+                                    <div class="border-bottom mt-4" style="border-color: #c9ab81;">
+                                        <div class="box d-flex justify-content-between text-white">
+                                            <h5>Pâté de Salmon</h5>
+                                            <p class="fw-medium">$59</p>
+                                        </div>
+                                        <p class="fw-medium" style="color: #c9ab81;">Topped with cucumber and roe</p>
+                                    </div>
+                                    <div class="img-translate position-absolute">
+                                        <img src="./images/shape-03.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="content position-relative">
+                                    <h3 class="text-white fst-italic">Main dish</h3>
+                                </div>
+                                <div class="border-bottom mt-5" style="border-color: #c9ab81;">
+                                    <div class="box d-flex justify-content-between text-white">
+                                        <h5>Fish Steak</h5>
+                                        <p class="fw-medium">$5.95</p>
+                                    </div>
+                                    <p class="fw-medium" style="color: #c9ab81;">Smooth bisque topped with river prawn</p>
                                 </div>
                                 <div class="border-bottom mt-4" style="border-color: #c9ab81;">
                                     <div class="box d-flex justify-content-between text-white">
-                                        <h5>Beef Skewers</h5>
+                                        <h5>Tournedos Rossini</h5>
                                         <p class="fw-medium">$29</p>
                                     </div>
                                     <p class="fw-medium" style="color: #c9ab81;">Classic greek salad, barrel aged feta
                                         cheese,</p>
                                 </div>
-                                <div class="border-bottom mt-5" style="border-color: #c9ab81;">
+                                <div class="border-bottom mt-4" style="border-color: #c9ab81;">
                                     <div class="box d-flex justify-content-between text-white">
-                                        <h5>Tomato Soup</h5>
+                                        <h5>Prawn Bisque</h5>
                                         <p class="fw-medium">$18</p>
                                     </div>
-                                    <p class="fw-medium" style="color: #c9ab81;">Smooth bisque topped with river prawn
-                                    </p>
+                                    <p class="fw-medium" style="color: #c9ab81;">Smooth bisque topped with river prawn</p>
                                 </div>
                                 <div class="border-bottom mt-4" style="border-color: #c9ab81;">
                                     <div class="box d-flex justify-content-between text-white">
-                                        <h5>Petit Carp</h5>
+                                        <h5>Duck Confit</h5>
                                         <p class="fw-medium">$29</p>
                                     </div>
                                     <p class="fw-medium" style="color: #c9ab81;">Small portion of fried carp with mashed
@@ -78,218 +424,79 @@
                                 </div>
                                 <div class="border-bottom mt-4" style="border-color: #c9ab81;">
                                     <div class="box d-flex justify-content-between text-white">
-                                        <h5>Pâté de Salmon</h5>
+                                        <h5>Sponge Cake</h5>
                                         <p class="fw-medium">$59</p>
                                     </div>
                                     <p class="fw-medium" style="color: #c9ab81;">Topped with cucumber and roe</p>
                                 </div>
-                                <div class="img-translate position-absolute">
-                                    <img src="./images/shape-03.png" alt="">
+                                <div class="img mt-3 ">
+                                    <img src="./images/menu-02.png" class="img-fluid w-100" alt="">
                                 </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="content position-relative">
-                                <h3 class="text-white fst-italic">Main dish</h3>
-                            </div>
-                            <div class="border-bottom mt-5" style="border-color: #c9ab81;">
-                                <div class="box d-flex justify-content-between text-white">
-                                    <h5>Fish Steak</h5>
-                                    <p class="fw-medium">$5.95</p>
-                                </div>
-                                <p class="fw-medium" style="color: #c9ab81;">Smooth bisque topped with river prawn</p>
-                            </div>
-                            <div class="border-bottom mt-4" style="border-color: #c9ab81;">
-                                <div class="box d-flex justify-content-between text-white">
-                                    <h5>Tournedos Rossini</h5>
-                                    <p class="fw-medium">$29</p>
-                                </div>
-                                <p class="fw-medium" style="color: #c9ab81;">Classic greek salad, barrel aged feta
-                                    cheese,</p>
-                            </div>
-                            <div class="border-bottom mt-4" style="border-color: #c9ab81;">
-                                <div class="box d-flex justify-content-between text-white">
-                                    <h5>Prawn Bisque</h5>
-                                    <p class="fw-medium">$18</p>
-                                </div>
-                                <p class="fw-medium" style="color: #c9ab81;">Smooth bisque topped with river prawn</p>
-                            </div>
-                            <div class="border-bottom mt-4" style="border-color: #c9ab81;">
-                                <div class="box d-flex justify-content-between text-white">
-                                    <h5>Duck Confit</h5>
-                                    <p class="fw-medium">$29</p>
-                                </div>
-                                <p class="fw-medium" style="color: #c9ab81;">Small portion of fried carp with mashed
-                                    potatoes</p>
-                            </div>
-                            <div class="border-bottom mt-4" style="border-color: #c9ab81;">
-                                <div class="box d-flex justify-content-between text-white">
-                                    <h5>Sponge Cake</h5>
-                                    <p class="fw-medium">$59</p>
-                                </div>
-                                <p class="fw-medium" style="color: #c9ab81;">Topped with cucumber and roe</p>
-                            </div>
-                            <div class="img mt-3 ">
-                                <img src="./images/menu-02.png" class="img-fluid w-100" alt="">
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <section>
-        <div class="client py-5" style="background-color: #021a20;">
-            <div class="container-fluid px-3">
-                <div class="row">
-                    <div class="col-xl-6">
-                        <div class="img-rotate d-flex justify-content-md-center justify-content-lg-center">
-                            <img src="./images/customer-left-01-removebg-preview.png" class="img-fluid" alt="">
-                        </div>
-                    </div>
-                    <div class="col-xl-6">
-                        <div class="client-content mt-3">
-                            <h4 class="mb-4" style="color: #c9ab81;">Client Feedback</h4>
-                            <h3 class="text-white mb-4">What believe <span style="color: #c9ab81;">our customers</span>
-                            </h3>
-                            <p class="mb-4" style="color: #b0b0b0;">Sed gravida nisl a porta tincidunt. Integer aliquam
-                                nisi sit amet magna suscipit,</p>
-                            <img src="./images/title-icon.png" class="img-fluid mb-4" alt="">
-                            <div class="carousel slide mt-5" data-bs-ride="carousel">
-                                <div class="carousel-inner">
-                                    <div class="carousel-item active">
-                                        <div class="d-flex justify-content-evenly">
-                                            <div class="img d-sm-none d-md-block">
-                                                <img src="./images/customer.png" class="img-fluid rounded-circle"
-                                                    alt="">
-                                            </div>
-                                            <div class="content">
-                                                <h4 class="fw-bold text-white">Wade Warren</h4>
-                                                <p class="mb-3" style="color: #c9ab81;">CEO</p>
-                                                <p class="text-white fst-italic fw-medium">
-                                                    Sed gravida nisl a porta tincidunt. Integer aliquam
-                                                    <br>
-                                                    nisi sit amet magna suscipit, fermentum mattis erat
-                                                    <br>
-                                                    rutrum. Sed suscipit libero lectus, at ullamcorper
-                                                    <br>
-                                                    erat feugiat eu.
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="carousel-item">
-                                        <div class="d-flex justify-content-evenly">
-                                            <div class="img d-sm-none d-md-block">
-                                                <img src="./images/customer-2.png" class="img-fluid rounded-circle"
-                                                    alt="">
-                                            </div>
-                                            <div class="content ">
-                                                <h4 class="fw-bold text-white">Jon Hafiz</h4>
-                                                <p class="mb-3" style="color: #c9ab81;">CTO</p>
-                                                <p class="text-white fst-italic fw-medium">
-                                                    Sed gravida nisl a porta tincidunt.Integer aliquam
-                                                    <br>
-                                                    nisi sit amet magna suscipit, fermentum mattis erat
-                                                    <br>
-                                                    rutrum. Sed suscipit libero lectus, at ullamcorper
-                                                    <br>
-                                                    erat feugiat eu.
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="carousel-item">
-                                        <div class="d-flex justify-content-evenly">
-                                            <div class="img d-sm-none d-md-block">
-                                                <img src="./images/customer-3.png" class="img-fluid rounded-circle"
-                                                    alt="">
-                                            </div>
-                                            <div class="content ">
-                                                <h4 class="fw-bold text-white">Dev Uddin</h4>
-                                                <p class="mb-3" style="color: #c9ab81;">Sr Shape</p>
-                                                <p class="text-white fst-italic fw-medium">
-                                                    Sed gravida nisl a porta tincidunt. Integer aliquam
-                                                    <br>
-                                                    nisi sit amet magna suscipit, fermentum mattis erat
-                                                    <br>
-                                                    rutrum. Sed suscipit libero lectus, at ullamcorper
-                                                    <br>
-                                                    erat feugiat eu.
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+        <!-- menu section end -->
 
-    <section>
-        <div class="blog py-3" style="background-color: #021a20;">
-            <div class="container-fluid px-4">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="title">
-                            <h4 class="mb-4" style="color: #c9ab81;">Blog</h4>
-                            <h2 class="text-white mb-4">Latest <span style="color: #c9ab81;">Update</span> </h2>
-                            <p class="mb-4" style="color: #b0b0b0;">Sed gravida nisl a porta tincidunt. Integer aliquam
-                                nisi sit amet <br>magna suscipit,</p>
-                            <img src="./images/title-icon.png" class="img-fluid mb-4" alt="">
+        <!-- feedback section start -->
+         
+        <section class="bg-transparent">
+            <div class="container-fluid" style="background-color: rgba(0, 0, 0, 0.568);">
+                <div class="row bg-transparent">
+                    <div class="col-7">
+                        <div class="d-flex align-items-center h-100 w-100">
+                            <div class="text-center px-2 w-100">
+                                <button class="btn-play1">
+                                    <a href="#" class="btn-play"><i class="bi bi-play-fill text-white fs-1"></i></a>
+                                </button>
+                                <h2 class="text-white display-5 mt-3">
+                                    We create delightful experiences.
+                                </h2>
+                            </div>
                         </div>
-                        <div class="row">
-                            <div class="col-md-12 col-xl-6">
-                                <div class="card border-0 rounded-5 overflow-hidden my-3 w-100">
-                                    <div class="overflow-hidden w-100">
-                                        <img src="./images/news-01.png" class="img-fluid w-100" alt="...">
-                                    </div>
-                                    <div class="card-body px-5 pt-5" style="background-color: #020f13;">
-                                        <div class="icons mb-3">
-                                            <a href="#" class="text-decoration-none border-end h5 pe-2 me-2"> <i
-                                                    class="bi bi-person"></i> Admin</a>
-                                            <a href="#"
-                                                class="text-decoration-none d-inline-block border-end h5 pe-2 me-2"> <i
-                                                    class="bi bi-calendar4"></i> January 30, 2023</a>
-                                            <p href="#" class="text-decoration-none d-inline-block h5"> <i
-                                                    class="bi bi-wechat"></i> 2 Comments</p>
-                                        </div>
-                                        <a href="#" class="card-title text-decoration-none fs-2">Make a proper salad
-                                            with high
-                                            proteins.</a>
-                                        <p class="card-text h6 mb-3 mt-3" style="color: #b0b0b0;">Sed gravida nisl a
-                                            porta tincidunt. Integer aliquam nisi sit amet magna suscipit, fermentum
-                                            mattis erat rutrum.</p>
-                                        <a href="#" class="btn text-decoration-none" role="button">View More</a>
-                                    </div>
+                    </div>
+                    <div class="col-5 py-5 px-3 my-3 rounded-3" style="background-color: #0F1D22;">
+                        <div class="px-md-3 px-lg-5">
+                            <p class="fst-italic fs-5" style="color: #C9AB81;">Reservation</p>
+                            <h5 class="display-5 fw-bold text-white">It only takes a <span style="color: #C9AB81;">little
+                                <br>sip.</span> 
+                            </h5>
+                            <img src="./images/title-icon.png" alt="">
+                            <p class="fs-6 text-secondary my-3">Crocodile undergoes incision prior to preserving the incisors and after that cleaning the tongue.</p>
+                            <div class="py-5 my-4 border border-end-0 border-start-0 border-secondary">
+                                <div class="d-flex justify-content-between w-100">
+                                    <h5 class="text-white">Signature Cocktail</h5>
+                                    <i class="bi bi-plus fs-4 text-secondary"></i>
                                 </div>
                             </div>
-                            <div class="col-md-12 col-xl-6">
-                                <div class="card border-0 rounded-5 overflow-hidden my-3 w-100">
-                                    <div class="overflow-hidden w-100">
-                                        <img src="./images/news-02.png" class="img-fluid w-100" alt="...">
+                            <div class="w-100">
+                                <ul class="list-unstyled w-100 py-3">
+                                    <li class="d-flex justify-content-between w-100 mb-2">
+                                        <h6 class="text-secondary">Irish Hopped Scotch</h6>
+                                        <span class="text-secondary">$9.50</span>
+                                    </li>
+                                    <li class="d-flex justify-content-between w-100 mb-2">
+                                        <h6 class="text-secondary">Vieux Carre</h6>
+                                        <span class="text-secondary">$9.50</span>
+                                    </li>
+                                    <li class="d-flex justify-content-between w-100 mb-2">
+                                        <h6 class="text-secondary">Versper Martini</h6>
+                                        <span class="text-secondary">$9.50</span>
+                                    </li>
+                                </ul>
+                                <div class="py-5 my-4 border border-end-0 border-start-0 border-secondary">
+                                    <div class="d-flex justify-content-between w-100">
+                                        <h5 class="text-white">Almondmilk Latte</h5>
+                                        <i class="bi bi-plus fs-4 text-secondary"></i>
                                     </div>
-                                    <div class="card-body px-5 pt-5" style="background-color: #020f13;">
-                                        <div class="icons mb-3">
-                                            <a href="#" class="text-decoration-none border-end h5 pe-2 me-2"> <i
-                                                    class="bi bi-person"></i> Admin</a>
-                                            <a href="#"
-                                                class="text-decoration-none d-inline-block border-end h5 pe-2 me-2"> <i
-                                                    class="bi bi-calendar4"></i> January 30, 2023</a>
-                                            <p href="#" class="text-decoration-none d-inline-block h5"> <i
-                                                    class="bi bi-wechat"></i> 2 Comments</p>
-                                        </div>
-                                        <a href="#" class="card-title text-decoration-none fs-2">Make a proper salad
-                                            with high
-                                            proteins.</a>
-                                        <p class="card-text h6 mb-3 mt-3" style="color: #b0b0b0;">Sed gravida nisl a
-                                            porta tincidunt. Integer aliquam nisi sit amet magna suscipit, fermentum
-                                            mattis erat rutrum.</p>
-                                        <a href="#" class="btn text-decoration-none" role="button">View More</a>
+                                </div>
+                                <div class="py-5 my-4">
+                                    <div class="d-flex justify-content-between w-100">
+                                        <h5 class="text-white">Sparking</h5>
+                                        <i class="bi bi-plus fs-4 text-secondary"></i>
                                     </div>
                                 </div>
                             </div>
@@ -297,8 +504,290 @@
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section> 
+
+        <!-- feedback section end   -->
+
+        <!-- reservation start  -->
+
+        <section class="py-5" style="background-color: #0B1315;">
+            <div class="container-fluid">
+                <div class="row px-2">
+                    <div class="col-6 bbg-img rounded-30"></div>
+                    <div class="col-6 pt-5 ps-4">
+                        <span class="fs-4 d-block py-3 fst-italic" style="color: #C9AB81;">Reservation</span>
+                        <h2 class="text-white display-6 fw-bold">Batter food<span style="color: #C9AB81;">forever</span></h2>
+                        <p class="text-secondary my-3">
+                            Sed gravida nisl a porta tincidunt. Integer aliquam nisi sit amet
+                            <br class="d-none d-lg-block">
+                            magna suscipit ,
+                        </p>
+                        <img src="./images/title-icon.png" alt="">
+                        <div class="my-3">
+                            <button class="btn-brownn position-relative" style="border:1px grey solid !important;border-radius: 10px; background-color:transparent !important;">
+                                <a href="#" class="text-secondary fw-bold">Book a Table</a>
+                            </button>
+                            <button class="btn-brownn position-relative ms-4" style="border:1px #715B3E solid !important;border-radius: 10px; background-color:#715B3E !important;">
+                                <a href="#" class="text-white fw-bold">Special Food</a>
+                            </button>
+                        </div>
+                        <div class="col-12 my-5 p-5 d-flex" style="background-color: #0F1D22;">
+                            <div class="col-4">
+                                <h3 class="text-white display-6 fw-bold">
+                                    SPACIAL
+                                    <br>
+                                    <span style="color: #C9AB81;">FOOD</span>
+                                </h3>
+                                <p class="text-secondary lineh mt-4">Sed gravida nisl a porta tincidunt. Integer aliquam nisi sit.</p>
+                            </div>
+                            <div class="col-8 ps-2">
+                                <div class="w-100 text-secondary py-2 ps-3 mb-3 border border-1 border-secondary" style="background-color:#0B1315;">
+                                    <div class="w-100 d-flex">
+                                        <i class="bi bi-clock text-secondary fs-5"></i>
+                                        <input type="text" class="text-white ms-2 bg-transparent border-0 fs-5" value="      Time">
+                                    </div>
+                                </div>
+                                <div class="w-100 text-secondary  py-2 ps-3 mb-3 border border-1 border-secondary" style="background-color:#0B1315;">
+                                    <div class="w-100 d-flex">
+                                        <i class="bi bi-calendar text-secondary fs-5"></i>
+                                        <input type="text" class="text-white ms-2 bg-transparent border-0 fs-5" value="      April 17">
+                                    </div>
+                                </div>
+                                <div class="w-100 text-secondary  py-2 ps-3 mb-3 border border-1 border-secondary" style="background-color:#0B1315;">
+                                    <div class="w-100 d-flex">
+                                        <i class="bi bi-person text-secondary fs-5"></i>
+                                        <input type="text" class="text-white ms-2 bg-transparent border-0 fs-5" value="      1 Person">
+                                    </div>
+                                </div>
+                                <button class="btn-table w-100 py-2 border-0 position-relative">
+                                    <a href="#" class="text-white fs-5">Find a Table</a>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- reservation start  -->
+
+        <!-- food section start -->
+
+        <section style="background-color: #0B1315;">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-4 overflow-hidden">
+                        <div class="position-relative img-table w-100" style="height: 578px;">
+                            <img src="./images/food-slider-03.png" class="img-fluid imgho" alt="">
+                            <div class="position-absolute top-50 start-50 translate-middle plus">
+                                <i class="bi bi-plus-lg display-2" style="color: #715B3E;"></i>
+                            </div>
+                        </div>
+                        <div class="col-12 bg-transparent py-5 text-center">
+                            <h3 class="text-white h2">Prawn Bisque</h3>
+                            <p class="fst-italic fs-5" style="color: #C9AB81;">Food</p>
+                        </div>
+                    </div>
+                    <div class="col-4 overflow-hidden mt-5">
+                        <div class="position-relative img-table w-100" style="height: 578px;">
+                            <img src="./images/food-slider-01.png" class="img-fluid imgho" alt="">
+                            <div class="position-absolute top-50 start-50 translate-middle plus">
+                                <i class="bi bi-plus-lg display-2" style="color: #715B3E;"></i>
+                            </div>
+                        </div>
+                        <div class="col-12 bg-transparent py-5 text-center">
+                            <h3 class="text-white h2">Egg Week Food</h3>
+                            <p class="fst-italic fs-5" style="color: #C9AB81;">Food</p>
+                        </div>
+                    </div>
+                    <div class="col-4 overflow-hidden">
+                        <div class="position-relative img-table w-100" style="height: 578px;">
+                            <img src="./images/food-slider-02.png" class="img-fluid imgho" alt="">
+                            <div class="position-absolute top-50 start-50 translate-middle plus">
+                                <i class="bi bi-plus-lg display-2" style="color: #715B3E;"></i>
+                            </div>
+                        </div>
+                        <div class="col-12 bg-transparent py-5 text-center">
+                            <h3 class="text-white h2">Tomato Soup</h3>
+                            <p class="fst-italic fs-5" style="color: #C9AB81;">Food</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- food section start -->
+    
+        <section>
+            <div class="client py-5" style="background-color: #0B1315;">
+                <div class="container-fluid px-3">
+                    <div class="row">
+                        <div class="col-xl-6">
+                            <div class="img-rotate d-flex justify-content-md-center justify-content-lg-center">
+                                <img src="./images/customer-left-01-removebg-preview.png" class="img-fluid" alt="">
+                            </div>
+                        </div>
+                        <div class="col-xl-6">
+                            <div class="client-content mt-3">
+                                <h4 class="mb-4" style="color: #c9ab81;">Client Feedback</h4>
+                                <h3 class="text-white mb-4">What believe <span style="color: #c9ab81;">our customers</span>
+                                </h3>
+                                <p class="mb-4" style="color: #b0b0b0;">Sed gravida nisl a porta tincidunt. Integer aliquam
+                                    nisi sit amet magna suscipit,</p>
+                                <img src="./images/title-icon.png" class="img-fluid mb-4" alt="">
+                                <div class="carousel slide mt-5" data-bs-ride="carousel">
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <div class="d-flex justify-content-evenly">
+                                                <div class="img d-sm-none d-md-block">
+                                                    <img src="./images/customer.png" class="img-fluid rounded-circle"
+                                                        alt="">
+                                                </div>
+                                                <div class="content">
+                                                    <h4 class="fw-bold text-white">Wade Warren</h4>
+                                                    <p class="mb-3" style="color: #c9ab81;">CEO</p>
+                                                    <p class="text-white fst-italic fw-medium">
+                                                        Sed gravida nisl a porta tincidunt. Integer aliquam
+                                                        <br>
+                                                        nisi sit amet magna suscipit, fermentum mattis erat
+                                                        <br>
+                                                        rutrum. Sed suscipit libero lectus, at ullamcorper
+                                                        <br>
+                                                        erat feugiat eu.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <div class="d-flex justify-content-evenly">
+                                                <div class="img d-sm-none d-md-block">
+                                                    <img src="./images/customer-2.png" class="img-fluid rounded-circle"
+                                                        alt="">
+                                                </div>
+                                                <div class="content ">
+                                                    <h4 class="fw-bold text-white">Jon Hafiz</h4>
+                                                    <p class="mb-3" style="color: #c9ab81;">CTO</p>
+                                                    <p class="text-white fst-italic fw-medium">
+                                                        Sed gravida nisl a porta tincidunt.Integer aliquam
+                                                        <br>
+                                                        nisi sit amet magna suscipit, fermentum mattis erat
+                                                        <br>
+                                                        rutrum. Sed suscipit libero lectus, at ullamcorper
+                                                        <br>
+                                                        erat feugiat eu.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <div class="d-flex justify-content-evenly">
+                                                <div class="img d-sm-none d-md-block">
+                                                    <img src="./images/customer-3.png" class="img-fluid rounded-circle"
+                                                        alt="">
+                                                </div>
+                                                <div class="content ">
+                                                    <h4 class="fw-bold text-white">Dev Uddin</h4>
+                                                    <p class="mb-3" style="color: #c9ab81;">Sr Shape</p>
+                                                    <p class="text-white fst-italic fw-medium">
+                                                        Sed gravida nisl a porta tincidunt. Integer aliquam
+                                                        <br>
+                                                        nisi sit amet magna suscipit, fermentum mattis erat
+                                                        <br>
+                                                        rutrum. Sed suscipit libero lectus, at ullamcorper
+                                                        <br>
+                                                        erat feugiat eu.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+        <!-- blog section start -->
+
+        <section>
+            <div class="blog py-3" style="background-color: #0B1315;">
+                <div class="container-fluid px-4">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="title">
+                                <h4 class="mb-4" style="color: #c9ab81;">Blog</h4>
+                                <h2 class="text-white mb-4">Latest <span style="color: #c9ab81;">Update</span> </h2>
+                                <p class="mb-4" style="color: #b0b0b0;">Sed gravida nisl a porta tincidunt. Integer aliquam
+                                    nisi sit amet <br>magna suscipit,</p>
+                                <img src="./images/title-icon.png" class="img-fluid mb-4" alt="">
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12 col-xl-6">
+                                    <div class="card border-0 rounded-5 overflow-hidden my-3 w-100">
+                                        <div class="overflow-hidden w-100">
+                                            <img src="./images/news-01.png" class="img-fluid w-100" alt="...">
+                                        </div>
+                                        <div class="card-body px-5 pt-5" style="background-color: #020f13;">
+                                            <div class="icons mb-3">
+                                                <a href="#" class="text-decoration-none border-end h5 pe-2 me-2"> <i
+                                                        class="bi bi-person"></i> Admin</a>
+                                                <a href="#"
+                                                    class="text-decoration-none d-inline-block border-end h5 pe-2 me-2"> <i
+                                                        class="bi bi-calendar4"></i> January 30, 2023</a>
+                                                <p href="#" class="text-decoration-none d-inline-block h5"> <i
+                                                        class="bi bi-wechat"></i> 2 Comments</p>
+                                            </div>
+                                            <a href="#" class="card-title text-decoration-none fs-2">Make a proper salad
+                                                with high
+                                                proteins.</a>
+                                            <p class="card-text h6 mb-3 mt-3" style="color: #b0b0b0;">Sed gravida nisl a
+                                                porta tincidunt. Integer aliquam nisi sit amet magna suscipit, fermentum
+                                                mattis erat rutrum.</p>
+                                            <a href="#" class="btn text-decoration-none" role="button">View More</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-12 col-xl-6">
+                                    <div class="card border-0 rounded-5 overflow-hidden my-3 w-100">
+                                        <div class="overflow-hidden w-100">
+                                            <img src="./images/news-02.png" class="img-fluid w-100" alt="...">
+                                        </div>
+                                        <div class="card-body px-5 pt-5" style="background-color: #020f13;">
+                                            <div class="icons mb-3">
+                                                <a href="#" class="text-decoration-none border-end h5 pe-2 me-2"> <i
+                                                        class="bi bi-person"></i> Admin</a>
+                                                <a href="#"
+                                                    class="text-decoration-none d-inline-block border-end h5 pe-2 me-2"> <i
+                                                        class="bi bi-calendar4"></i> January 30, 2023</a>
+                                                <p href="#" class="text-decoration-none d-inline-block h5"> <i
+                                                        class="bi bi-wechat"></i> 2 Comments</p>
+                                            </div>
+                                            <a href="#" class="card-title text-decoration-none fs-2">Make a proper salad
+                                                with high
+                                                proteins.</a>
+                                            <p class="card-text h6 mb-3 mt-3" style="color: #b0b0b0;">Sed gravida nisl a
+                                                porta tincidunt. Integer aliquam nisi sit amet magna suscipit, fermentum
+                                                mattis erat rutrum.</p>
+                                            <a href="#" class="btn text-decoration-none" role="button">View More</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- blog section end -->
+
+    </main>
+
+    <!-- main section end -->
+
+    <!-- footer section start -->
 
     <footer class="py-5" style="background-color: #020f13;">
         <div class="container-fluid px-4">
@@ -349,6 +838,8 @@
             </div>
         </div>
     </footer>
+
+    <!-- footer section end -->
 
     <script src="./js/bootstrap.bundle.min.js"></script>
     <script src="./js/script.js"></script>
